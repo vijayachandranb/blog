@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-string profession = "Full stack developer";
-string mainAreaOfExpertise = "Microsoft Technologies";
-int yearsOfExperience = 9;
-string currentCompany = "Socxo Solutions Pvt. Ltd.";
+string profession = "Full stack developer"; </br>
+string mainAreaOfExpertise = "Microsoft Technologies"; </br>
+int yearsOfExperience = 9; </br>
+string currentCompany = "Socxo Solutions Pvt. Ltd."; </br>
 
 ### More Information
 
