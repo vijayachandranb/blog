@@ -10,5 +10,5 @@ You can reset a user's password in Azure AD B2C without user interaction by usin
 
 Register a new application from **App Registrations** by giving a name and selecting single tenant as in the below image
 
-[<img src="{{ site.baseurl }}/images/GraphApiReg.PNG"/>]
+<img src="{{ site.baseurl }}/images/GraphApiReg.PNG"/>
 
