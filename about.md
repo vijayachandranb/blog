@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+string profession = "Full stack developer";
+string mainAreaOfExpertise = "Microsoft Technologies";
+int yearsOfExperience = 9;
+string currentCompany = "Socxo Solutions Pvt. Ltd.";
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+A technology blog mainly based on Microsoft technologies, created on the idea of sharing information to people on the same page! You get better when you share what you have.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Please feel to contact me any time on
+[vj.bvnair@gmail.com](mailto:vj.bvnair@gmail.com)
