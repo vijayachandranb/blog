@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Change password with MS Graph Api
+title: Change password in Azure AD B2C
 ---
 
 ## Change user password in Azure AD B2C with MS Graph Api
