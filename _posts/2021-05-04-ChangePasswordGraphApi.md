@@ -21,7 +21,7 @@ You have now given "User Administration" role to the app you have just created. 
 
 ### Use postman or fiddler to test
 
-**1. Acquire Token**
+**1. Acquire Token**  
 Use the below post request to acquire token
 `https://login.microsoftonline.com/<your_tenant>/oauth2/v2.0/token`
 
@@ -32,7 +32,7 @@ Use your app's client id, client secret to do a post request as shown in the ima
 
 grant_type should be "client_credentials" and scope should be "https://graph.microsoft.com/.default". You will get an access token for a successful post request.
 
-**2. Change password**
+**2. Change password**  
 You can now do a patch request to `https://graph.microsoft.com/v1.0/users/<UserObjectId>` with the following request body along with the access token acquired from the previous request to change the user's password.
  Please make sure you replace <UserObjectId> with a valid guid of the user which is the unique identifier of the user in an azure ad.
 
