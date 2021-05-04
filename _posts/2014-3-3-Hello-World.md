@@ -1,10 +1,13 @@
 ---
 layout: post
-title: You're up and running!
+title: Change password with MS Graph Api
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+## Change user password in Azure AD B2C with MS Graph Api
+You can reset a user's password in Azure AD B2C without user interaction by using Microsoft's graph api. Azure AD B2C comes with user flows to reset a user's password out of the box. But there can be a scenario where we need to provide a password change option from within our app for the users without redirecting them to B2C pages. This is the case where Microsoft's graph api comes handy. Here's how it's done.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+### Register an app in Azure AD B2C
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Register a new application from ** App Registrations ** by giving a name and selecting single tenant as in the below image
+
+![_config.yml]({{ site.baseurl }}/images/GraphApiReg.png)
